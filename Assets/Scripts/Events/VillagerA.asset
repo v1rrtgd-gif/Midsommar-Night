@@ -1,0 +1,24 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f281c3410be5d5b4689693b3598b46e0, type: 3}
+  m_Name: VillagerA
+  m_EditorClassIdentifier: 
+  eventTitle: Mysterious snow pile
+  description: You can hear wailing under the large pile of snow...
+  image: {fileID: 21300000, guid: 05811e5ac14ec9a4da1177bc0a1a5ee1, type: 3}
+  choices:
+  - buttonText: Check it out
+    outcomeType: 3
+    value: 20
+  - buttonText: Ignore it
+    outcomeType: 4
+    value: 0
